@@ -50,13 +50,11 @@ with st.container():
     st.write("##")
     st.subheader("A")
     st.write("R")
+    
 with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_contact_form)
-    with text_column:
-        st.subheader("")
-        st.write("")
+    
+    st.subheader("")
+    st.write("")
  
 # ---- CONTACT ----
 with st.container():
