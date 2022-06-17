@@ -27,7 +27,8 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("This will be the t-odo list of my projects")
+    st.subheader("This will be the To-Do list of my Projects.")
+    st.write("---")
     st.title("To-Do list.")
     st.write("Nothing yet lol")
 
