@@ -48,11 +48,8 @@ with st.container():
     st.write("---")
     st.header("E")
     st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-    with text_column:
-        st.subheader("A")
-        st.write("R")
+    st.subheader("A")
+    st.write("R")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
